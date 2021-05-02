@@ -11,7 +11,7 @@ def click(x,y):
     win32api.SetCursorPos((x,y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
-    time.sleep(0.08)
+    time.sleep(0.075)
 #the clicker
 #use this to change the key https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 while True:
