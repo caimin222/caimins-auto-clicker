@@ -18,5 +18,5 @@ while True:
     a = win32api.GetKeyState(0x06)#the key
     if a < 0:
      click(960,540)#where to click
-     click(960,540)#where to click
+     
 	
