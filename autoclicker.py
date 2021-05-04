@@ -6,8 +6,13 @@ import keyboard
 import random
 import win32api, win32con
 
+
 #use this to change the key https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 key = 0x06 #the key u hold to auto click
+
+time.sleep(1)
+print("Caimins Autoclicker loaded enjoy")
+
 
 #defines what a click is
 def click(x,y):
