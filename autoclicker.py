@@ -1,3 +1,4 @@
+#first kinda successful project just a auto clicker not much 
 from pyautogui import *
 import pyautogui
 import time
