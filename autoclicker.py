@@ -22,7 +22,7 @@ def click(x,y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
     time.sleep(0.00000001)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
-    time.sleep(0.060)#delay between clicks 
+    time.sleep(0.05)#delay between clicks 
 
 
 def click2(x,y):
@@ -38,12 +38,15 @@ def click3(x,y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
     time.sleep(0.00000003)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
-    time.sleep(0.045)#delay between clicks
+    time.sleep(0.04)#delay between clicks
 
 #the clicker
 while True:
     a = win32api.GetKeyState(key)
     if a < 0:
      click(960,540)#position of the click 
+     time.sleep(0.00000001)
      click2(960,540)#position of the second click
+     time.sleep(0.00000001)
      click3(960,540)#position of the third click
+     time.sleep(0.00000001)
