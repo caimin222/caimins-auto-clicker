@@ -3,3 +3,5 @@
  pip install keyboard 
  pip install pyautogui 
  pip install opencv-python
+ pip install PyScreeze
+ pip install Pillow
