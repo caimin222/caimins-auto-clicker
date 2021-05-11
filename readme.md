@@ -5,3 +5,4 @@
  pip install opencv-python
  pip install PyScreeze
  pip install Pillow
+ i would check out all these they are super cool tools
